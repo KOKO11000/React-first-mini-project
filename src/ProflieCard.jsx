@@ -34,7 +34,7 @@ export default function ProflieCard(props) {
   };
  
   return (
-    <div className={`${tailwindbgColorObj[color]} justify-items-center p-5 m-3.5 rounded-4xl size-100 justify-self-center sm:py-4 shadow-md `}>
+    <div className={`${tailwindbgColorObj[color]} justify-items-center p-5 m-3.5 rounded-4xl size-100 justify-self-center sm:py-4 shadow-md inline-block`}>
       <img
         className={`mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0 border-2 ${borderObj[color]}`}
         src={props.src}
